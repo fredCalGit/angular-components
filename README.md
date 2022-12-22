@@ -2,7 +2,7 @@
 
 This project is available at: https://angular-components-fredcalgit.vercel.app/views
 
-# Comps
+# Angular Components
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
