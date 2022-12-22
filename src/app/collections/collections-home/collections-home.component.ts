@@ -8,13 +8,19 @@ import { Component } from '@angular/core';
 export class CollectionsHomeComponent {
   data = [
     {
-      name: 'James', age: 25, job: 'Designer', employed: true
+      name: 'James', age: 25, job: 'Designer', employed: 'Yes'
     },
     {
-      name: 'Jill', age: 27, job: 'Engineer', employed: true
+      name: 'Jill', age: 27, job: 'Engineer', employed: 'Yes'
     },
     {
-      name: 'Elyse', age: 21, job: 'Engineer', employed: false
+      name: 'Fred', age: 35, job: 'Engineer', employed: 'No'
+    },
+    {
+      name: 'Bob', age: 27, job: 'Engineer', employed: 'Yes'
+    },
+    {
+      name: 'Richard', age: 35, job: 'Engineer', employed: 'Yes'
     },
   ]
   headers = [
