@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Live Application
 
-This project is available at: https://angular-components-fredcalgit.vercel.app/views
+This project is available at: https://angular-components-fredcalgit.vercel.app
 
 ## Development server
 
