@@ -3,6 +3,27 @@
     <app-divider>
       Modal Component
     </app-divider>
-    <app-modal></app-modal>
+    <button class="ui button" (click)="onClick()">Open Modal</button>
+    <app-modal (close)="onClick()" *ngIf="toggleModal">
+      <div modalTitle>
+        I'm the Modal Title
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
+        pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
+        Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
+        in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
+        per conubia nostra, per inceptos himenaeos.
+      </p>
+      <ng-container modalFooter>
+        <button class="ui button" (click)="onClick()">OK</button>
+      </ng-container>
+    </app-modal>
+  </div>
+  <div class="ui segment">
+    <app-divider>
+      Accordion Component
+    </app-divider>
+    <app-accordion [items]="items"></app-accordion>
   </div>
 </div>
